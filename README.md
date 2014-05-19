@@ -11,15 +11,16 @@ Hints:
 2. Each of these companies have their own NASDAQ code. In case of Apple its AAPL. Google and find out whats for others.
 3. Doesn't matter which API or website you use. You can use 'Yahoo Finance', 'Google Finance' or whichever comfortable.
 4. How it should work: 
+
           - when I run the code, I should get a vector of prices of these companies
           - Output can be a data.frame or table or csv or bar plot... you can be creative! 
           - You should have a separate function (you can call it anything), to which you pass the NASDAQ code and in return you get the stock price. For ex, I will call it as get_me_stock_price.. so
 
-get_me_stock_price <- function (nasdaq_code){
-          # your code here
-}
+                    get_me_stock_price <- function (nasdaq_code){
+                              # your code here
+                    }
 
-so, if I call get_me_stock_price(AAPL), I should get price of Apple stock. 
+          so, if I call get_me_stock_price(AAPL), I should get price of Apple stock. 
 
         - There should be another function, which repeatedly calls get_me_stock_price for each of the companies.
 
